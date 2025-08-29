@@ -1,0 +1,30 @@
+{
+  "name": "design-system-vietnamese-ui-kit",
+  "version": "1.0.0",
+  "description": "Một bộ công cụ UI cho các ứng dụng web tại Việt Nam, tập trung vào việc sử dụng màu sắc, biểu tượng và phong cách phù hợp với văn hóa Việt.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/design-system-vietnamese-ui-kit.git"
+  },
+  "keywords": ["ui-kit", "vietnamese", "design-system"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.2",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.3",
+    "@babel/preset-react": "^7.14.3"
+  }
+}
